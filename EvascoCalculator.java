@@ -1,7 +1,15 @@
+
+import java.util.Scanner;
+
 public class EvascoCalculator {
     public static void main(String[] args) {
-        int num1 = 10;
-        int num2 = 5;
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter First Number: ");
+        double num1 = input.nextDouble();
+
+        System.out.print("Enter Second Number: ");
+        double num2 = input.nextDouble();
         double result;
 
         result = num1 + num2;
